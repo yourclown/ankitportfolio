@@ -13,7 +13,7 @@ export default function Contactme() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_y7kheas', 'template_gvavlig', form.current, 'c2y8DHMrbfCO8Uf')
+        emailjs.sendForm('service_y7kheas', 'template_gvavlig', form.current, 'c2y8DHMrbfCO8UfZ7')
             .then((result) => {
                 console.log(result.text);
                 // Display success message using Swal

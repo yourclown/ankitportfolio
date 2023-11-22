@@ -26,7 +26,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [playbackRate, setPlaybackRate] = useState(0.75);
+  const [playbackRate, setPlaybackRate] = useState(0);
   const [isMuted, setIsMuted] = useState(false);
   const [play, { stop }] = useSound(space, {
     playbackRate,

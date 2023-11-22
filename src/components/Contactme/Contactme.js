@@ -58,7 +58,7 @@ export default function Contactme() {
         <>
 
             <Container fluid className="con-section">
-                <Particle />
+            <Particle />
                 <Container>
                     <Row>
                         <Col md={6}>

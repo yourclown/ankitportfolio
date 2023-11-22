@@ -1,6 +1,12 @@
 label {
     display: block;
     color: white;
-    margin-right: 530px;
-     /* Adjust the margin as needed for spacing */
+  
+    @media (max-width: 767px) {
+      margin-right: 270px; 
+    }
+  
+    @media (min-width: 768px) {
+      margin-right: 530px; 
   }
+}

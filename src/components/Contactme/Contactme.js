@@ -85,7 +85,7 @@ export default function Contactme() {
                                         <div className="form-group">
                                             <label htmlFor="name">subject:</label>
 
-                                            <input type="text" style={{ color: 'white', padding: "15px", background: 'rgba(184, 78, 212, 0.02)', borderRadius: '10px', boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(1px)', border: '1px solid rgba(184, 78, 212, 0.3)' }} className="form-control" id="name" placeholder="Enter your name" name="subject" required />
+                                            <input type="text" style={{ color: 'white', padding: "15px", background: 'rgba(184, 78, 212, 0.02)', borderRadius: '10px', boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(1px)', border: '1px solid rgba(184, 78, 212, 0.3)' }} className="form-control" id="name" placeholder="Enter your subject" name="subject" required />
 
                                         </div>
                                         <br></br>

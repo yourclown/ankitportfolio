@@ -58,12 +58,15 @@ export default function Contactme() {
         <>
 
             <Container fluid className="con-section">
-            <Particle />
+                <Particle />
                 <Container>
                     <Row>
                         <Col md={6}>
                             <Card style={{ height: "100%", background: 'rgba(184, 78, 212, 0.02)', borderRadius: '16px', boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', backdropFilter: 'blur(1px)', WebkitBackdropFilter: 'blur(1px)', border: '1px solid rgba(184, 78, 212, 0.3)' }}>
                                 <Card.Body>
+                                    <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                                      <strong className="purple">Contact Me!</strong>
+                                    </h1>
                                     <form ref={form} onSubmit={sendEmail}>
                                         <div className="form-group">
                                             <label htmlFor="name">Name:</label>

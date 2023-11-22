@@ -551,8 +551,8 @@ button:focus {
 }
 .con-section{
   position: relative !important;
-  padding-top: 180px !important;
-  padding-bottom: 132px !important;
+  padding-top: 150px !important;
+  padding-bottom: 94px !important;
   background-image: var(--section-background-color) !important;
 
 }

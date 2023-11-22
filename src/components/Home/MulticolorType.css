@@ -1,0 +1,9 @@
+.multicolor-letter {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .multicolor-type {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  

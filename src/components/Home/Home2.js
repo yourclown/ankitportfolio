@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 import myImg from "../../Assets/avatar.svg";
 import Ankit from "../../Assets/ankit1.png";
 
@@ -103,12 +104,14 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <br></br>
               <li className="social-icons">
+                <span className="purple glowing-icon">Do Check My Insta for coding content:- </span>
                 <a
-                  href="https://www.instagram.com/yourclown.exe"
+                  href="https://www.instagram.com/code_crafttt/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour home-social-icons " // Added a new class for styling
                 >
                   <AiFillInstagram />
                 </a>

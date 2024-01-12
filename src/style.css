@@ -749,3 +749,13 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+@keyframes breathe {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.glowing-icon {
+  animation: breathe 2s infinite; /* Adjust the duration as needed */
+}

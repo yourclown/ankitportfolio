@@ -22,37 +22,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> REBOOT </span> MYSELF 💾
             </h1>
             <p className="home-about-body">
-              I've developed a deep affection for programming, and I've certainly acquired some knowledge—well, I believe so. 🤷‍♂️
+              I’ve leveled up from a coding enthusiast to a{" "}
+              <b className="purple">Backend Software Developer</b> with over{" "}
+              <i>2+ years</i> of grinding in the tech trenches. 🚀
               <br />
-              <br />
-              I am proficient in foundational languages, such as
+              <br />I specialize in crafting{" "}
               <i>
-                <b className="purple"> C++, Java, Javascript and Php. </b>
+                <b className="purple">scalable systems</b>
               </i>
+              —slashing latency by <b>35%</b>, boosting workflows by <b>60%</b>,
+              and delivering <b>99.8% uptime</b> like it’s no big deal. 💻
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products. </b>
-
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My <span className="purple">core stack</span>? Think{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  JavaScript, TypeScript, Node.js, Express
                 </b>
               </i>
-              &nbsp; like
+              , and{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple">PHP</b>
+              </i>{" "}
+              with a sprinkle of <b className="purple">Laravel</b>. I tame
+              databases like <b>MySQL</b> and <b>MongoDB</b>, wield{" "}
+              <b>GraphQL</b> for slick APIs, and scale with <b>Microservices</b>{" "}
+              on <b>AWS</b>. 🌐
+              <br />
+              <br />I thrive in <b className="purple">Agile squads</b>, shipping
+              clean code with <b>CI/CD pipelines</b>, caching with <b>Redis</b>,
+              and tweaking <b>system design</b> for max efficiency. Oh, and I’m
+              no stranger to <b>Linux</b> or debugging with <b>Postman</b>. 🛠️
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,10 +64,13 @@ function Home2() {
                 src={Ankit}
                 className="img-fluid rounded-circle"
                 alt="avatar"
-                style={{ width: "350px", height: "350px" }}
+                style={{
+                  width: "350px",
+                  height: "350px",
+                  border: "3px solid #9b59b6",
+                }}
               />
             </Tilt>
-
           </Col>
         </Row>
         <Row>
@@ -106,7 +112,9 @@ function Home2() {
               </li>
               <br></br>
               <li className="social-icons">
-                <span className="purple glowing-icon">Do Check My Insta for coding content:- </span>
+                <span className="purple glowing-icon">
+                  Do Check My Insta for coding content:-{" "}
+                </span>
                 <a
                   href="https://www.instagram.com/code_crafttt/"
                   target="_blank"
@@ -119,7 +127,7 @@ function Home2() {
             </ul>
             <br></br>
             <Link to="/contact-me">
-              <button className="btn btn-dark" style={{ borderRadius: '10%' }}>
+              <button className="btn btn-dark" style={{ borderRadius: "10%" }}>
                 Contact Me
               </button>
             </Link>

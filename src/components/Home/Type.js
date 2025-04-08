@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "<span style='color: #9b19e6;'>S</span>oftware <span style='color: #f04826;'>D</span>eveloper",
-          "<span style='color: #3df2cb;'>M</span>ERN <span style='color: #46c2e8;'>S</span>tack <span style='color: #52f298'>D</span>eveloper",
+          "<span style='color: #3df2cb;'>B</span>ackend<span style='color: #52f298'>D</span>eveloper",
         ],
         autoStart: true,
         loop: true,

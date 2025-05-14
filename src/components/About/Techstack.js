@@ -24,41 +24,41 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-     
-      <Col xs={4} md={2} className="tech-icons" title={'JavaScript'}>
+      <Col xs={4} md={2} className="tech-icons" title={"JavaScript"}>
         <DiJavascript1 />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" title={'Node.js'} >
+      <Col xs={4} md={2} className="tech-icons" title={"Node.js"}>
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'React.js'}>
+      <Col xs={4} md={2} className="tech-icons" title={"React.js"}>
         <DiReact />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" title={'MongoDb'}>
+      <Col xs={4} md={2} className="tech-icons" title={"MongoDb"}>
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Next.js'}>
+      <Col xs={4} md={2} className="tech-icons" title={"Next.js"}>
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Git'}>
+      <Col xs={4} md={2} className="tech-icons" title={"Git"}>
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Firebase'}>
+      <Col xs={4} md={2} className="tech-icons" title={"Firebase"}>
         <SiFirebase />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Redis'}>
+      <Col xs={4} md={2} className="tech-icons" title={"Redis"}>
         <SiRedis />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Mysql'}>
+      <Col xs={4} md={2} className="tech-icons" title={"Mysql"}>
         <SiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title={'Laravel'}> 
+      <Col xs={4} md={2} className="tech-icons" title={"Laravel"}>
         <SiLaravel />
       </Col>
-
-
+      <Col xs={4} md={2} className="tech-icons" title={"Python"}>
+        <DiPython />
+      </Col>
     </Row>
   );
 }

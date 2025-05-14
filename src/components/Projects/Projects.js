@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
 import hospital from "../../Assets/Projects/hospital.jpg";
+import mind from "../../Assets/Projects/Mindryl-AI.png";
 import food from "../../Assets/Projects/food.jpg";
 import parking from "../../Assets/Projects/parking.jpg";
 import malware from "../../Assets/Projects/malware.jpeg";
@@ -21,6 +21,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mind}
+              href="https://mindrylai.vercel.app/"
+              target="_blank" // Opens in new tab
+              isBlog={false}
+              title="Mindryl-AI"
+              description="An AI-driven social platform transformation tool powered by Grok-AI, featuring smart AI-based post creation, dynamic
+feed system, style-based outputs, audio playback, real-time sockets, cron jobs, and structured logging & much more."
+              ghLink="" // GitHub link if available
+              demoLink="" // Alternative demo link
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hospital}
@@ -72,11 +85,8 @@ function Projects() {
               title="Machine learning Based Malware Detection System"
               description="Implemented a Machine Learning-Based Malware Detection System, leveraging Python for data analysis and model training, andutilizing TensorFlow for efficient machine learning algorithms."
               ghLink=""
-
             />
           </Col>
-
-
         </Row>
       </Container>
     </Container>

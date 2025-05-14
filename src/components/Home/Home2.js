@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-
 import myImg from "../../Assets/avatar.svg";
 import Ankit from "../../Assets/ankit1.png";
 
@@ -27,7 +26,7 @@ function Home2() {
             <p className="home-about-body">
               I’ve leveled up from a coding enthusiast to a{" "}
               <b className="purple">Backend Software Developer</b> with over{" "}
-              <i>2+ years</i> of grinding in the tech trenches. 🚀
+              <i>3+ years</i> of grinding in the tech trenches. 🚀
               <br />
               <br />I specialize in crafting{" "}
               <i>
@@ -45,7 +44,7 @@ function Home2() {
               </i>
               , and{" "}
               <i>
-                <b className="purple">PHP</b>
+                <b className="purple">Python</b>
               </i>{" "}
               with a sprinkle of <b className="purple">Laravel</b>. I tame
               databases like <b>MySQL</b> and <b>MongoDB</b>, wield{" "}

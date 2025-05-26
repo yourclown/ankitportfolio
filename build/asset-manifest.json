@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98900750.css",
+    "main.js": "/static/js/main.f38ca803.js",
+    "static/js/845.a32041c2.chunk.js": "/static/js/845.a32041c2.chunk.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Continuum.mp3": "/static/media/Continuum.31e27409b69bb5c77d9f.mp3",
+    "static/media/hotel.jpg": "/static/media/hotel.eb0f8d1a29a06a0b6796.jpg",
+    "static/media/Mindryl-AI.png": "/static/media/Mindryl-AI.cc084e0af7323d02e0e6.png",
+    "static/media/food.jpg": "/static/media/food.287e0746ba3a15122073.jpg",
+    "static/media/ankit1.png": "/static/media/ankit1.714562a0ad39afd1c121.png",
+    "static/media/parking.jpg": "/static/media/parking.f327751fe633f55f8928.jpg",
+    "static/media/contact.png": "/static/media/contact.0180db9670abd94f855d.png",
+    "static/media/Ankit Prasad Resume(o).pdf": "/static/media/Ankit Prasad Resume(o).968e6e85cea70f5bb4c3.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/malware.jpeg": "/static/media/malware.514e859a86b88943dde2.jpeg",
+    "static/media/hospital.jpg": "/static/media/hospital.54c20830b702479af61e.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/ankitlogo.png": "/static/media/ankitlogo.fc0e8b6b21a8e47282eb.png",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.98900750.css.map": "/static/css/main.98900750.css.map",
+    "main.f38ca803.js.map": "/static/js/main.f38ca803.js.map",
+    "845.a32041c2.chunk.js.map": "/static/js/845.a32041c2.chunk.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98900750.css",
+    "static/js/main.f38ca803.js"
+  ]
+}

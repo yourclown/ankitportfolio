@@ -8,6 +8,7 @@ import food from "../../Assets/Projects/food.jpg";
 import parking from "../../Assets/Projects/parking.jpg";
 import malware from "../../Assets/Projects/malware.jpeg";
 import hotel from "../../Assets/Projects/hotel.jpg";
+import webeditor from "../../Assets/Projects/webEditor.png"
 
 function Projects() {
   return (
@@ -30,6 +31,18 @@ function Projects() {
               title="Mindryl-AI"
               description="An AI-driven social platform transformation tool powered by Grok-AI, featuring smart AI-based post creation, dynamic
 feed system, style-based outputs, audio playback, real-time sockets, cron jobs, and structured logging & much more."
+              ghLink="" // GitHub link if available
+              demoLink="" // Alternative demo link
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webeditor}
+              href="https://ankit-code-editor.netlify.app/"
+              target="_blank" // Opens in new tab
+              isBlog={false}
+              title="Code-Editor"
+              description="A live, in-browser code editor designed for front-end development, allowing users to write, preview, and experiment with HTML, CSS, and JavaScript in real-time. This interactive tool simplifies web development by providing instant visual feedback on your code."
               ghLink="" // GitHub link if available
               demoLink="" // Alternative demo link
             />
